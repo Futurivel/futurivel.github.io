@@ -1,17 +1,16 @@
 body {
     background: black;
     color: white;
-    text-align: center
 }
 
 h1 {
     font-family: 'Archivo Black', sans-serif;
     font-size: 3em;
     text-align: center;
-    height: 30vh;
+    margin-top: 30vh;
 }
 
 h2 {
     font-family: 'Source Sans Pro', sans-serif;
-    text-align: center
+    text-align: center;
 }
