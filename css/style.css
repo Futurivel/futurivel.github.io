@@ -4,6 +4,6 @@ body {
 }
 
 h1 {
-  font-family: 'Archivo Black', sans-serif;
-  text-align: center
-}
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 3em;
+    text-align: center}
