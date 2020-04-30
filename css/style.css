@@ -5,9 +5,10 @@ body {
 
 h1 {
     font-family: 'Archivo Black', sans-serif;
-    widht: 50%
+    widht: 50%;
     font-size: 3em;
-    text-align: center}
+    text-align: center;
+    margin-top: 30vh}
 
 h2 {
     font-family: 'Source Sans Pro', sans-serif;
