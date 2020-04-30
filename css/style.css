@@ -1,15 +1,12 @@
 body {
     background: black;
-    color: white;
-}
+    color: white}
 
 h1 {
     font-family: 'Archivo Black', sans-serif;
-    font-size: 3em;
-    text-align: center;
-}
+    font-size: 4em;
+    text-align: center}
 
 h2 {
     font-family: 'Source Sans Pro', sans-serif;
-    text-align: center;
-}
+    text-align: center}
