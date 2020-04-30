@@ -1,5 +1,9 @@
 body {
   color: white;
-  background: black;
+  background: black
+}
+
+h1 {
   font-family: 'Archivo Black', sans-serif;
-  display: inline-block}
+  text-align: center
+}
