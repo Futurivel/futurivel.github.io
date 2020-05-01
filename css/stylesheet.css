@@ -8,16 +8,15 @@ body {
 h1 {
     font-family: 'Archivo Black', sans-serif;
     font-size: 3em;
-    text-align: center;
     margin-top: 30vh;
 }
 
 .center {
     display: block;
     margin-right: auto;
-    width: 30vw}
+    width: 30vw
+}
 
 h2 {
     font-family: 'Source Sans Pro', sans-serif;
-    text-align: center;
 }
