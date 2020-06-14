@@ -3,7 +3,6 @@ body {
 }
 
 .flex {
-  padding: 40px;
   display: flex;
   flex-flow: row wrap;
 }
@@ -13,6 +12,7 @@ header {
   padding: 20px;
   width: 20vw;
   min-width: 290px;
+  padding: 30px;
 }
 
 article {
@@ -39,8 +39,8 @@ h1 {
   text-align: justify;
 }
 
-/* header keeps 300px in pages larger than 890px */
+/* header keeps 290px in pages larger than 890px */
 @media screen and (min-width: 890px) {
   header {
-    max-width: 300px}
+    max-width: 290px}
 }
