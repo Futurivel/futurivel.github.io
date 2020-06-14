@@ -1,0 +1,42 @@
+.flex {
+  padding: 40px;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+header {
+  background: black;
+  flex: 1;
+  padding: 20px;
+  width: 20vw;
+  min-width: 290px;
+}
+
+article {
+  background: black;
+  flex: 3;
+}
+
+/* setting constraints for images, it guides flexbox spacing */
+img {
+  width: 100%;
+  min-width: 290px
+}
+
+h1 {
+  color: white;
+  font-family: 'Archivo Black', sans-serif;
+  font-size: 4em;
+  margin-top: 8vh;
+}
+
+p {
+  color: white;
+  font-family: 'Noto Serif', serif;
+}
+
+/* header keeps 290px in pages larger than 890px */
+@media screen and (min-width: 890px) {
+  header {
+    max-width: 290px}
+}
