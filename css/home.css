@@ -1,3 +1,7 @@
+body {
+  background: black;
+}
+
 .flex {
   padding: 40px;
   display: flex;
@@ -5,7 +9,6 @@
 }
 
 header {
-  background: black;
   flex: 1;
   padding: 20px;
   width: 20vw;
