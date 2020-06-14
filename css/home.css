@@ -27,4 +27,5 @@ h1 {
 @media screen and (min-width: 850px) {
   header {position: fixed; background: black; width: 290px; height: 100%}
   article {margin-left: 450px}
+  h1 {text-align: center}
 } 
