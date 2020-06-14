@@ -2,28 +2,13 @@ body {
   background: black;
 }
 
-.flex {
-  display: flex;
-  flex-flow: row wrap;
-}
-
 header {
-  flex: 1;
-  padding: 20px;
-  width: 20vw;
-  min-width: 290px;
-  padding: 30px;
+  padding: 40px;
+  min-width: 290px
 }
 
-article {
-  background: black;
-  flex: 3;
-}
-
-/* setting constraints for images, it guides flexbox spacing */
 img {
   width: 100%;
-  min-width: 290px
 }
 
 h1 {
@@ -39,8 +24,7 @@ h1 {
   text-align: justify;
 }
 
-/* header keeps 290px in pages larger than 890px */
-@media screen and (min-width: 890px) {
-  header {
-    max-width: 290px}
-}
+@media screen and (min-width: 850px) {
+  header {position: fixed; background: black; width: 290px; height: 100%}
+  article {margin-left: 370px}
+} 
